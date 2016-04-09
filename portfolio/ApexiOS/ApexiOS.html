@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> This is Ka Mok </title>
+    <link rel="stylesheet" href="../../css/normalize.css">
+	<link href='http://fonts.googleapis.com/css?family=Raleway:700,200,900,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../../css/main.css">
+	</head>
+  <body>
+	<div id="wrapper2">
+	  <h1>Apex for Youth iOS</h1>
+	  <h2>The exploration of digital engagement for a noble NPO</h2>
+	  
+	  <p>Even with the loss at the <a href="../../portfolio/D&H2014/D&H2014.html"> Design and Hack Hackathon 2014</a>, I still believed in the potential of Narwall. I set up a meeting with the Director of Innovation from the Provost Office at The New School who encouraged us to keep hacking at the idea, and even present it to the University. After being acquainted with him, he introduced me to <a href = "http://www.apexforyouth.org">Apex for Youth</a>, a non-profit that serves youth in the Lower East Side and asked me to explore the idea of building an app for Apex.</p>
+	  <h3>Old Partners</h3>
+	  <p>After realizing the scope of the project, I reached out to one of the programmers on Narwall, Bogdan Vitoc. Bogdan, a 16 year old from Cherry Hill High School East in New Jersey, was immediately interested and I began grasping the difference between the client's wishes and the capabilities of this amateur duo. </p>
+	  
+	  <div class="imgcaption">		
+		<img src="../../assets/D&H/D&H2014_01.jpg"></a>
+		<h4>Me and Bogdan at Design and Hack 2014. </h4>
+	  </div>
+		
+	  <h3>Getting the Contract</h3>
+	  <p>Apex provides a suite of services for their Lower East Side students, including Mentoring, Afterschool programs, Education programs (SAT, SHSAT, 4th grade state test), and Athletics. My ultimate vision for the application (which had to start iOS because a. it's the most popular OS for our constituencies b. it's only feasible for us amateurs to develop one OS first) is so that every single constituency in Apex, including staff, volunteers, board members, and students can utilize and reach out to each other to use as resources for growth.</p>
+	  
+	  <div class="imgcaption">		
+		<img src="../../assets/ApexiOS/01.png"></a>
+		<h4>From Apex's site, their programs and age groups. </h4>
+	  </div>
+		
+	  <p>To put it in simple terms, I should be able to see every single mentor in Apex (not just the one I am assigned to) and reach out to them for advice. I met with the chairman of the organization at a Denny’s five minutes from my apartment in the LES and we outlined the scope of the project. We determined that the Social feature that I want is too much, and that a standard application that describes the organization, its programs, its events, as well as an option to donate and volunteer is fine for a start. He tasked me to write my own contract, as well as compensation, and send it to him for approval. After back and forth discussions mainly revolving Bogdan's under age status, we had a deal. We had one month to develop the application.</p>
+	  
+	  <h3>Let’s get technical</h3>
+	  <p>At the point when the contract was signed, I already had several high fidelity wireframes that I had to turn to fit the <a href= "https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/">iOS Design Guidelines</a>, as laid out by Apple. We divided one feature per week, and left the final week for QA. The development schedule was planned so we built the Home Screen first, then Pledge, and then Calendar.</p>
+	  
+	  <div class="imgcaption">		
+		<img src="../../assets/ApexiOS/02.png"></a>
+		<h4>I used layer comps in Photoshop to quickly export high fidelity wireframes and notes to the client and Bogdan. </h4>
+	  </div>
+	  
+	  <p>On the tech side, Bogdan wrote Apex with Objective C in XCode, a software by Apple to help developers easily develop apps. We stored our data on Parse, a free (tier pricing) data host. As we got closer and closer to release date, I was in charge of going to Apex and getting the right assets from them (pictures, program details, and events details). We were getting close to our deadline, which was in placed because Apex wanted to launch the App in conjunction with their annual fund-raising Gala and auction at Cipriani Wall Street.</p>
+	  
+	  <h3>Crisis</h3>
+	  
+	  <p>Crisis hit when days before our launch, Apple released an update which messed up the UI of our app. We had to do an emergency update to address the new bug. Additionally, we found out a problem with picture loading apps. That is ALL pictures that are loaded on websites are NOT full size images. Another words, you simply cannot put a 1MB picture in your app without making load times slow. The word around involves saving a thumbnail of the image as the exact resolution of the device, and allowing the device to pull it from Parse to make sure the user doesn't need to download any pixels they are not going to see. I begged and pleaded the Apple app review team for an expedited review, to which we got.</p>
+	  
+	  <div class="imgcaption">		
+		<img src="../../assets/ApexiOS/03.png"></a>
+		<h4>Thankfully, Apple's Review Team is very understanding of our circumstances. </h4>
+	  </div>
+
+	  <h3>Launch and Cipriani Wall Street</h3>
+	  
+	  <p>We were invited to go to the Gala, and we were given a shoutout at the end of the programming. The Gala was a completely new experience for my and Bogdan that took us by surprised. 400 of some of the wealthiest and well connected individuals were in that room, and we were pretty intimidated to shake hands with them. Nonetheless, a great reward for a month of development. Oh, they also used my <a href="../Apex Cards/ApexCards.html">card designs</a> for a "Are you Smarter than a Fifth Grader" style mini-game raffle at the Gala. You can find the latest version of the app <a href="https://itunes.apple.com/app/apex-for-youth/id982857474">here</a>.</p>
+	  
+	<div class="imgcaption">		
+			<img src="../../assets/ApexiOS/04.jpg"></a>
+			<h4>Thank you Apex! </h4>
+		  </div>
+	</div>
+
+  </body>
+    <nav>
+        <ul>
+          <li><a href="../../index.html" class="selected" >home</a></li>
+		  <li><a href="../../aboutme.html">more about me</a></li>
+		  <li><a href="mailto:hey.kamok@gmail.com">give me a shout</a></li>
+		  <!--make "give me a shout" so when hover, it changes text.-->
+        </ul>
+      </nav>
+	  <footer>
+        <p>&copy; 2015 Ka Mok</p>
+      </footer>
+    </div>
+  </body>
+</html>
